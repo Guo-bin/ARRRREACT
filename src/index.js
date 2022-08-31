@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
-
+import Minder from "./mindar-viewer";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Minder />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
